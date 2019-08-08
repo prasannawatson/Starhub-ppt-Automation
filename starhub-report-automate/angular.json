@@ -24,11 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/fullpage.js/dist/fullpage.min.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/ngx-fullpage/ngx-fullpage.js"
+              "node_modules/fullpage.js/dist/fullpage.js",
+              "node_modules/fullpage.js/dist/fullpage.extensions.min.js"
             ]
           },
           "configurations": {
