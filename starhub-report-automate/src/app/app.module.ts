@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MnFullpageModule } from "ngx-fullpage";
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
@@ -10,7 +11,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     WelcomePageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MnFullpageModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
