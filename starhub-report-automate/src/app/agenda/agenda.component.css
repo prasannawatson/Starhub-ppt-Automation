@@ -1,25 +1,21 @@
-table{border-spacing: 0px;
-    width:65%;
-    margin-left: 25px;
-    height:auto;
-    box-shadow: 4px 4px 10px #2a2424;
+table{
+  width:65%;
+  margin-left: 25px;
+  height:450px;
 }
 
-tr{
-    border-bottom: 10px solid #2a2424;
-    text-align: left;
-    border: solid;
-    border-width: 1px 0;
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 26px;
+td{
+  margin-left: 50px;
+  font-size: 26px;
+  border: 1px solid #dddddd;
+  border-block-width: 10px;
 }
 .content {padding:10px;}
 .header {
     margin-top: 0%;
     padding: 1px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
+    text-align: left;
+    color: black;
     font-size: 25px;
     margin-left: 20px;
     margin-right: 20px;
