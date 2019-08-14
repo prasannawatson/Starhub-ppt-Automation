@@ -12,6 +12,14 @@ export class RetailTnpsOverallComponent implements OnInit {
     "Overall", "Ex.Partners", "Platinum Shops",
     "RoadShow", "StarHub Shops"
   ];
+  line = [ [52, 53, 53, 53, 50.5, 47, 54, 53.5, 53.5, 56, 64, 69.8],
+           [56, 54, 57, 58, 54, 52, 53, 55, 56, 55, 63, 62],
+           [50, 48, 50, 53, 52, 38.8, 50.5, 48, 56, 57, 69, 70.5],
+           ['-', '-', 31, '-', 42, '-', '-', '-', 44, 27, 55, '-'],
+           [50, 50, 52, 51, 49, 46, 52, 52, 52, 52.5, 61.2, 64.8],
+           ["Jul-18", "Aug-18", "Sep-18", "Oct-18", "Nov-18", "Dec-18",
+        "Jan-19", "Feb-19", "Mar-19", "Apr-19", "May-19", "Jun-19"]
+         ];
 
   a =
   [
@@ -50,8 +58,7 @@ export class RetailTnpsOverallComponent implements OnInit {
         text: "Target NPS"
      },
      xAxis:{
-        categories:["Jul-18", "Aug-18", "Sep-18", "Oct-18", "Nov-18", "Dec-18",
-        "Jan-19", "Feb-19", "Mar-19", "Apr-19", "May-19", "Jun-19"],
+        categories:this.line[5],
            title:{
             text:"Months"
          } 
@@ -64,23 +71,23 @@ export class RetailTnpsOverallComponent implements OnInit {
      series: [
       {
          name: this.values[0],
-         data: [52, 53, 53, 53, 50.5, 47, 54, 53.5, 53.5, 56, 64, 69.8]
+         data: this.line[0]
       },
       {
          name: this.values[1],
-         data: [56, 54, 57, 58, 54, 52, 53, 55, 56, 55, 63, 62]
+         data: this.line[1]
       },
       {
          name: this.values[2],
-         data: [50, 48, 50, 53, 52, 38.8, 50.5, 48, 56, 57, 69, 70.5]
+         data: this.line[2]
       },
       {
          name: this.values[3],
-         data: ['-', '-', 31, '-', 42, '-', '-', '-', 44, 27, 55, '-']
+         data: this.line[3]
       },
       {
         name: this.values[4],
-        data: [50, 50, 52, 51, 49, 46, 52, 52, 52, 52.5, 61.2, 64.8]
+        data: this.line[4]
      }
      ]
    }
