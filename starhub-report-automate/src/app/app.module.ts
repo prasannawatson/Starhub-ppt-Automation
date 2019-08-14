@@ -7,6 +7,9 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { ExecutiveSummaryComponent } from './executive-summary/executive-summary.component';
 import { ExecutiveSummaryDivsComponent } from './executive-summary-divs/executive-summary-divs.component';
+import { RetailComponentComponent } from './retail-component/retail-component.component';
+import { RetailTnpsOverallComponent } from './retail-tnps-overall/retail-tnps-overall.component';
+import { HighchartsChartComponent } from 'highcharts-angular';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ExecutiveSummaryDivsComponent } from './executive-summary-divs/executiv
     WelcomePageComponent,
     AgendaComponent,
     ExecutiveSummaryComponent,
-    ExecutiveSummaryDivsComponent
+    ExecutiveSummaryDivsComponent,
+    HighchartsChartComponent,
+    RetailComponentComponent,
+    RetailTnpsOverallComponent
   ],
   imports: [
     BrowserModule,

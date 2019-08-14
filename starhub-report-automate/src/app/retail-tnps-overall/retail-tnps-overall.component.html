@@ -1,0 +1,28 @@
+<h4> JUNE’19 RETAIL TNPS – OVERALL & BY STORE TYPE​ </h4>
+<h6> Overall NPS decreased by 3 points to reach 69.8 points in June’19​ </h6>
+
+<highcharts-chart
+   [Highcharts] = "highcharts" 
+   [options] = "chartOptions" 
+   style = "width: 90%; height: 325px; display: block;margin-left:30px;">
+</highcharts-chart>
+
+<div class = "content">
+    <table id = "retail-table">
+        <tr *ngFor = "let i of a">
+            <td> {{i.name}} </td>
+            <td> {{i.Jun}} </td>
+            <td> {{i.Jul}} </td>
+            <td> {{i.Aug}} </td>
+            <td> {{i.Sep}} </td>
+            <td> {{i.Oct}} </td>
+            <td> {{i.Nov}} </td>
+            <td> {{i.Dec}} </td>
+            <td> {{i.Jan}} </td>
+            <td> {{i.Feb}} </td>
+            <td> {{i.Mar}} </td>
+            <td> {{i.Apr}} </td>
+            <td> {{i.May}} </td>
+        </tr> 
+    </table>
+</div>
