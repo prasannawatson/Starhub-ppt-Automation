@@ -1,0 +1,19 @@
+.summary-conaitner {
+    display: flex;
+    flex-direction: row;
+      justify-content:center;
+      flex-flow: row wrap;
+  }
+  .executive-summary-divs{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    background: #565656;
+    }
+    h1{
+      color: #fff;
+      font-size: 24px;
+      font-size: 24px;
+      text-align: center;
+  }
