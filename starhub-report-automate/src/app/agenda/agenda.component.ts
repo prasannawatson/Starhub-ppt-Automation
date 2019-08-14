@@ -11,9 +11,7 @@ export class AgendaComponent implements OnInit {
     "StarHub EBG", "StarHub Online", "StarHub Teesales",
     "Consumer Contact Center"
   ];
-  constructor() { 
-    console.log(this.values);
-  }
+  constructor() {   }
 
   ngOnInit() {  }
   
