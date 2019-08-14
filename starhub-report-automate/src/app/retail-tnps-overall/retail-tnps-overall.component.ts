@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
 
 @Component({
@@ -45,50 +45,59 @@ export class RetailTnpsOverallComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  @Input()
+    name: string;
 
-  ngOnInit() { }
+  constructor() {
+  }
 
+  ngOnInit() {
+    console.log(this.name);
+    if(this.name === "s"){
+      this.highcharts = Highcharts;
+    }
+  }
+  
   highcharts = Highcharts;
   chartOptions = {   
-     chart: {
-        type: "line"
-     },
-     title: {
-        text: "Target NPS"
-     },
-     xAxis:{
-        categories:this.line[5],
-           title:{
-            text:"Months"
-         } 
-     },
-     yAxis: {          
-        title:{
-           text:"TNPS"
-        } 
-     },
-     series: [
-      {
-         name: this.values[0],
-         data: this.line[0]
-      },
-      {
-         name: this.values[1],
-         data: this.line[1]
-      },
-      {
-         name: this.values[2],
-         data: this.line[2]
-      },
-      {
-         name: this.values[3],
-         data: this.line[3]
-      },
-      {
-        name: this.values[4],
-        data: this.line[4]
-     }
-     ]
-   }
+       chart: {
+          type: "line"
+       },
+       title: {
+          text: "Target NPS"
+       },
+       xAxis:{
+          categories:this.line[5],
+             title:{
+              text:"Months"
+           } 
+       },
+       yAxis: {          
+          title:{
+             text:"TNPS"
+          } 
+       },
+       series: [
+        {
+           name: this.values[0],
+           data: this.line[0]
+        },
+        {
+           name: this.values[1],
+           data: this.line[1]
+        },
+        {
+           name: this.values[2],
+           data: this.line[2]
+        },
+        {
+           name: this.values[3],
+           data: this.line[3]
+        },
+        {
+          name: this.values[4],
+          data: this.line[4]
+       }
+      ]
+  }
 }
