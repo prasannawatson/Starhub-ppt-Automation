@@ -10,6 +10,9 @@ import { ExecutiveSummaryDivsComponent } from './executive-summary-divs/executiv
 import { RetailComponentComponent } from './retail-component/retail-component.component';
 import { RetailTnpsOverallComponent } from './retail-tnps-overall/retail-tnps-overall.component';
 import { HighchartsChartComponent } from 'highcharts-angular';
+import { StaffSatMtTrComponent } from './staff-sat-mt-tr/staff-sat-mt-tr.component';
+import { TripleLineChartComponent } from './triple-line-chart/triple-line-chart.component';
+import { DoubleLineChartComponent } from './double-line-chart/double-line-chart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HighchartsChartComponent } from 'highcharts-angular';
     ExecutiveSummaryDivsComponent,
     HighchartsChartComponent,
     RetailComponentComponent,
-    RetailTnpsOverallComponent
+    RetailTnpsOverallComponent,
+    StaffSatMtTrComponent,
+    TripleLineChartComponent,
+    DoubleLineChartComponent
   ],
   imports: [
     BrowserModule,

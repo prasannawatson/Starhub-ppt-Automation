@@ -54,7 +54,7 @@ export class RetailTnpsOverallComponent implements OnInit {
   ngOnInit() {
     console.log(this.name);
     if(this.name === "s"){
-      this.highcharts = Highcharts;
+      
     }
   }
   
