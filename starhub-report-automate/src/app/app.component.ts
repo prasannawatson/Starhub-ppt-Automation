@@ -7,6 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title1 = 'starhub-report-automate';
+  //For retail,hubtroopers and so on
+  header = [ "Retail", "Hubtroopers", "Product & Lifecycle", "StarHub EBG",
+             "StarHub Online", "StarHub TeleSales", "Consumer Contact Center"];
+  table = [
+    [ "NPS", "Staff Satisfaction Breakdown",
+      "Qualitative Analysis", "Store Performance & Rank"],
+    [ "NPS", "Technician Satisfaction", "Qualitative Analysis"],
+    [ "NPS", "Overall Satisfaction", "Cable TV Metrics", "Mobile Metrics",
+      "Broadband Metrics", "Qualitative Analysis"],
+    [ "NPS", "Sales Person Satisfaction", "Qualitative Analysis"],
+    [ "NPS", "Overall Satisfaction", "Qualitative Analysis"],
+    [ "NPS", "Staff Satisfaction", "Qualitative Analysis"],
+    [ "NPS", "Agent NPS", "Qualitative Analysis"]
+  ];
   //For single line chart
   data = [
       [92.8, 92.5, 93, 92.5, 92, 90.9, 92, 92.3, 92, 92.5, 93.1, 93.6],
