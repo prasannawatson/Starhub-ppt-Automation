@@ -1,0 +1,16 @@
+.welcome-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.welcome-page
+{
+   .welcome-desc {
+  background-color: #fff;
+  flex-grow: 5;
+}
+.welcome-image {
+  flex-grow: 5;
+  background-color: red;
+
+}
+}

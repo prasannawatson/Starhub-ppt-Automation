@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-executive-summary-divs',
   templateUrl: './executive-summary-divs.component.html',
-  styleUrls: ['./executive-summary-divs.component.css']
+  styleUrls: ['./executive-summary-divs.component.scss']
 })
 export class ExecutiveSummaryDivsComponent implements OnInit {
 
