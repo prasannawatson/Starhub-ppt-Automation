@@ -13,6 +13,8 @@ import { HighchartsChartComponent } from 'highcharts-angular';
 import { StaffSatMtTrComponent } from './staff-sat-mt-tr/staff-sat-mt-tr.component';
 import { TripleLineChartComponent } from './triple-line-chart/triple-line-chart.component';
 import { DoubleLineChartComponent } from './double-line-chart/double-line-chart.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { ColumnChartComponent } from './column-chart/column-chart.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DoubleLineChartComponent } from './double-line-chart/double-line-chart.
     RetailTnpsOverallComponent,
     StaffSatMtTrComponent,
     TripleLineChartComponent,
-    DoubleLineChartComponent
+    DoubleLineChartComponent,
+    BarChartComponent,
+    ColumnChartComponent
   ],
   imports: [
     BrowserModule,

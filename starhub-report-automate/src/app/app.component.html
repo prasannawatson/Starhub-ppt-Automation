@@ -24,12 +24,11 @@ mnFullpageSlidesNavPosition="top">
         <div class="fp-tableCell">
             <div class="slide">
                 <div class = "first-slide">
-                    slider 1
+                        <app-executive-summary></app-executive-summary>
                 </div>
             </div>
         </div>
     </div>
-
     <div id="section2" class="section fp-section fp-table">
         <div class="fp-tableCell">
             <div class="slide"> <app-agenda></app-agenda> </div>
@@ -136,6 +135,11 @@ mnFullpageSlidesNavPosition="top">
     <div id="section2" class="section fp-section fp-table">
         <div class="fp-tableCell">
             <div class="slide"> <app-double-line-chart [title]="title2[0]" [data]="data2[0]" [categories]="categories[0]" [values]="values2[0]"> </app-double-line-chart> </div>
+        </div>
+    </div>
+    <div id="section2" class="section fp-section fp-table">
+        <div class="fp-tableCell">
+            <div class="slide"> <app-double-line-chart [title]="title2[1]" [data]="data2[1]" [categories]="categories[0]" [values]="values2[1]"> </app-double-line-chart> </div>
         </div>
     </div>
 </div>
