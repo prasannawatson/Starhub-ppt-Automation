@@ -4,7 +4,7 @@ import * as Highcharts from 'highcharts';
 @Component({
   selector: 'app-staff-sat-mt-tr',
   templateUrl: './staff-sat-mt-tr.component.html',
-  styleUrls: ['./staff-sat-mt-tr.component.css']
+  styleUrls: ['./staff-sat-mt-tr.component.scss']
 })
 export class StaffSatMtTrComponent implements OnInit {
 

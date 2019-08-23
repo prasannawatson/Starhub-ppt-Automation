@@ -4,7 +4,7 @@ import * as Highcharts from 'highcharts';
 @Component({
   selector: 'app-retail-tnps-overall',
   templateUrl: './retail-tnps-overall.component.html',
-  styleUrls: ['./retail-tnps-overall.component.css']
+  styleUrls: ['./retail-tnps-overall.component.scss']
 })
 export class RetailTnpsOverallComponent implements OnInit {
 

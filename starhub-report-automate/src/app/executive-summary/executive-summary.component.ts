@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-executive-summary',
@@ -8,21 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ExecutiveSummaryComponent implements OnInit {
 
   constructor() { }
-executiveSummaryList = [
-    {
-      "name":"Retail"
-    },
-    {
-      "name":"Hubtroopers"
-    },
-    {
-      "name":"Product & Lifestyle"
-    },
-    {
-      "name":"StarHub EBG"
-    }
-  ]
-  ngOnInit() {
+  @Input() executiveSummaryListData: string[];
+  executiveSummaryList
 
+  ngOnInit() {
+   this.executiveSummaryList = this.executiveSummaryListData;
+console.log(this.executiveSummaryList);
 }
 }

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomePageComponent implements OnInit {
 
-  constructor() { }
+
+  starhubLogo = './assets/images/StarHub-logo.png';
+  cclogo = './assets/images/cc-logo.png'
+  constructor() { 
+    
+  }
 
   ngOnInit() {
+    
   }
 
 }
