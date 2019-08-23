@@ -15,6 +15,8 @@ import { TripleLineChartComponent } from './triple-line-chart/triple-line-chart.
 import { DoubleLineChartComponent } from './double-line-chart/double-line-chart.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { ColumnChartComponent } from './column-chart/column-chart.component';
+import { TopBottomTableComponent } from './top-bottom-table/top-bottom-table.component';
+import { TNPSTableComponent } from './tnps-table/tnps-table.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ColumnChartComponent } from './column-chart/column-chart.component';
     TripleLineChartComponent,
     DoubleLineChartComponent,
     BarChartComponent,
-    ColumnChartComponent
+    ColumnChartComponent,
+    TopBottomTableComponent,
+    TNPSTableComponent
   ],
   imports: [
     BrowserModule,

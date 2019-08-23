@@ -6,3 +6,18 @@
    [options] = "chartOptions" 
    style = "width: 90%; height: 325px; display: block;margin-left:30px;">
 </highcharts-chart>
+
+<div class = "content">
+   <table id = "retail-table">
+      <tr>
+         <td *ngFor = "let i of table_value[0]">
+            {{i}}
+         </td>
+      </tr>
+      <tr>
+         <td *ngFor = "let i of table_value[1]">
+            {{i}}
+         </td>
+      </tr> 
+   </table>
+</div>

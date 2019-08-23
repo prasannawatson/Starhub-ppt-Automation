@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 
 @Component({
@@ -45,17 +45,10 @@ export class RetailTnpsOverallComponent implements OnInit {
     }
   ];
 
-  @Input()
-    name: string;
-
   constructor() {
   }
 
   ngOnInit() {
-    console.log(this.name);
-    if(this.name === "s"){
-      
-    }
   }
   
   highcharts = Highcharts;

@@ -1,0 +1,28 @@
+<h4> {{title[0]}} </h4>
+<h6> {{title[1]}} </h6>
+
+<div class = "content">
+    <table id = "retail-table">
+        <th> Top 10 Stores </th>
+        <th> TNPS </th>
+        <th> Vol(%) </th>
+        <tr *ngFor = "let i of table[0]">
+            <td> {{i.top_10_stores}} </td>
+            <td> {{i.TNPS}} </td>
+            <td> {{i.Vol}} </td>
+        </tr> 
+    </table>
+</div>
+
+<div class = "content">
+    <table id = "retail-table">
+        <th> Bottom 10 Stores </th>
+        <th> TNPS </th>
+        <th> Vol(%) </th>
+        <tr *ngFor = "let i of table[1]">
+            <td> {{i.bottom_10_stores}} </td>
+            <td> {{i.TNPS}} </td>
+            <td> {{i.Vol}} </td>
+        </tr> 
+    </table>
+</div>

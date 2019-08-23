@@ -31,7 +31,11 @@ chartOptions
      legend: {
       enabled: true
   },
-     yAxis : {
+  yAxis:{
+   categories: ['Delivery', 'Installation', 'Service call', 'Undo installation', 'Upgrade'], title: {
+   text: null
+   },
+     xAxis : {
         min: 0, title: {
            text: 'Population (millions)', align: 'high'
         },
@@ -54,21 +58,14 @@ chartOptions
      },
      series: [
         {
-           name: 'Year 1800',
-           data: [107, 31, 635, 203, 2]
+           name: 'Earnest corporation Ltd',
+           data: [33.3, 39.1, 32.5, 14.7, 46.8]
         }, 
         {
-           name: 'Year 1900',
-           data: [133, 156, 947, 408, 6]
-        }, 
-        {
-           name: 'Year 2008',
-           data: [973, 914, 4054, 732, 34]      
+           name: 'Planet smart services Ltd',
+           data: [49.3, 39.6, 28.6, -12, 41.3]
         }
      ]
-  };
   }
-
   
-
-}
+}}}

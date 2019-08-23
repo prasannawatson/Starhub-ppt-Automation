@@ -62,6 +62,19 @@ export class AppComponent {
             [ "JUNE’19 TELESALES STAFF SATISFACTION TRENDS​",
               "Staff Satisfaction scores increased to reach 85.4 pts in June’19​"]
           ];
+  table_value = [
+    ["Base",10867,10721,10847,12539,11483,11749,12900,9232,11242,10549,12912,13443],
+    ["Base",3116,3061,3086,4160,5269,4875,3728,6484,6090,6090,2619,5815],
+    ["Base",3557,3626,3586,3628,4837,5988,5664,4249,7363,6934,2959,6883],
+    ["Base",616,586,577,554,454,463,501,583,484,1362,1682,1370],
+    ["Base",717,660,667,649,527,521,578,659,553,1549,1833,1570],
+    ["Base",148,144,145,114,136,100,101,79,121,121,85,91],
+    ["Base",148,144,145,114,136,100,122,93,135,132,85,102],
+    ["Base",78,54,24,37,30,1113],
+    ["Base",78,54,24,37,30,1234],
+    ["Base",836,764,819,825,1055,668,795,567,647,793,761,927],
+    ["Base",1219,986,923,983,955,1225,819,985,672,943,908,1108]
+  ];
   //For double line chart
   title2 = [ [ "JUNE’19 CABLE TV NPS & OVERALL SATISFACTION​",
                 "Overall NPS as well as overall satisfaction scores for Cable TV have decreased in June’19​"],
@@ -90,6 +103,15 @@ export class AppComponent {
               [ "NPS", "Overall Sat"],
               [ "New", "Renewal"]
           ];
+  table_value2 = [ [ [ "Base TNPS",192,186,168,169,148,137,154,201,148,502,586,476],
+                     [ "Overall Sat",220,208,189,203,167,147,178,217,165,562,645,545] ],
+                   [ [ "Base TNPS",242,242,235,217,183,176,204,242,184,355,436,382],
+                     [ "Overall Sat",290,267,280,252,213,207,237,276,216,413,436,423] ],
+                   [ [ "Base TNPS",182,158,174,168,123,150,143,140,152,505,680,512],
+                     [ "Overall Sat",207,185,198,194,147,167,163,166165,574,752,601] ],
+                   [ [ "Base New",75,76,68,67,61,58,43,41,51,58,41,34],
+                     [ "Renewal",60,72,73,78,52,77,57,38,69,63,44,55] ]
+                ];
   //For triple line chart
   title3 = [ [  "JUNE’19 HUBTROOPERS TNPS BY COMPANY​", 
                 "Increase in NPS scores in June’19 for both Earnest Corporation as well as Planet Smart Services​"],
@@ -115,4 +137,103 @@ export class AppComponent {
               [ "My Account Manager", "My StarHub App", "Customer Online Store" ],
               [ "My Account Manager", "My StarHub App", "Customer Online Store" ]
             ];
+
+  //For slide 23 and 24
+  table_23 = [ [ {"top_10_stores": "Changi T3 outlet", "TNPS": 87.6, "Vol": 1.13},
+                 {"top_10_stores": "Esmart Tampines One", "TNPS": 84.4, "Vol": 0.74},
+                 {"top_10_stores": "HOUGANG MALL", "TNPS": 84.2, "Vol": 0.66},
+                 {"top_10_stores": "TeleInfo 930 Yishun Ave 2, #B1-03 North Point Shopping Centre, S(769098)", "TNPS": 78.6, "Vol": 1.3},
+                 {"top_10_stores": "SH TM", "TNPS": 77.1, "Vol": 16.79},
+                 {"top_10_stores": "CIPTLOT1", "TNPS": 77, "Vol": 1.31},
+                 {"top_10_stores": "Planet Telecoms 1 Woodlands Square,Causeway Point,#03-(07to09),S(738099)", "TNPS": 76.8, "Vol": 9.16},
+                 {"top_10_stores": "CIPT SUN PLAZA", "TNPS": 76, "Vol": 0.58},
+                 {"top_10_stores": "BEDOK MALL", "TNPS": 74.3, "Vol": 1.94},
+                 {"top_10_stores": "SH Waterway Point", "TNPS": 74.1, "Vol": 3.33},
+              ],
+              [  {"bottom_10_stores": "SH CIS RS Team 1", "TNPS": 60, "Vol": 0.06},
+                 {"bottom_10_stores": "Esmart Mobile Hillion", "TNPS": 57.1, "Vol": 1.14},
+                 {"bottom_10_stores": "CIPTROADSHOW", "TNPS": 53.3, "Vol": 0.17},
+                 {"bottom_10_stores": "Esmart Mobile Junction8", "TNPS": 53.3, "Vol": 1.07},
+                 {"bottom_10_stores": "TeleInfo AMK Hub, 53, Ang Mo Kio Ave 3, AMK Hub,  #02-57, S(569933)", "TNPS": 51.4, "Vol": 1.29},
+                 {"bottom_10_stores": "Esmart Roadshow", "TNPS": 50, "Vol": 0.47},
+                 {"bottom_10_stores": "CITIROADSHOW", "TNPS": 47.8, "Vol": 0.27},
+                 {"bottom_10_stores": "Esmart Mobile West Mall", "TNPS": 46.9, "Vol": 0.57},
+                 {"bottom_10_stores": "Esmart Mobile Compass one", "TNPS": 44.1, "Vol": 1.08},
+                 {"bottom_10_stores": "SH CS Tele", "TNPS": 37.4, "Vol": 1.71},
+              ]
+            ];
+  table_24 = [ [  {"top_10_stores": "Esmart Tampines One", "TNPS": 97.2, "Vol(%)": 0.74},
+                  {"top_10_stores": "HOUGANG MALL", "TNPS": 96.7, "Vol(%)": 0.7},
+                  {"top_10_stores": "Changi T3 outlet", "TNPS": 95.9, "Vol(%)": 1.01},
+                  {"top_10_stores": "Planet Telecoms 1 Woodlands Square,Causeway Point,#03-(07to09),S(738099)", "TNPS": 95.3, "Vol(%)": 9.13},
+                  {"top_10_stores": "Esmart Mobile Toa Payoh HDB Hub", "TNPS": 95, "Vol(%)": 0.72},
+                  {"top_10_stores": "SH TM", "TNPS": 94.8, "Vol(%)": 16.23},
+                  {"top_10_stores": "CIPT SUN PLAZA", "TNPS": 94.6, "Vol(%)": 0.56},
+                  {"top_10_stores": "BEDOK MALL", "TNPS": 94.6, "Vol(%)": 1.97},
+                  {"top_10_stores": "CIPTLOT1", "TNPS": 94.4, "Vol(%)": 1.23},
+                  {"top_10_stores": "SH Waterway Point", "TNPS": 94.2, "Vol(%)": 3.33},
+              ],
+              [   {"bottom_10_stores": "CITICLEMENTI", "TNPS": 90.7, "Vol(%)": 1.05},
+                  {"bottom_10_stores": "Esmart Roadshow", "TNPS": 90.4, "Vol(%)": 0.5},
+                  {"bottom_10_stores": "TeleInfo AMK Hub, 53, Ang Mo Kio Ave 3, AMK Hub,  #02-57, S(569933)", "TNPS": 90.2, "Vol(%)": 1.33},
+                  {"bottom_10_stores": "Esmart Mobile Compass one", "TNPS": 90.1, "Vol(%)": 1.11},
+                  {"bottom_10_stores": "Esmart Mobile Hillion", "TNPS": 89.5, "Vol(%)": 1.13},
+                  {"bottom_10_stores": "Esmart Mobile Junction8", "TNPS": 89.1, "Vol(%)": 1.11},
+                  {"bottom_10_stores": "CITIROADSHOW", "TNPS": 89, "Vol(%)": 0.29},
+                  {"bottom_10_stores": "SH CIS RS Team 1", "TNPS": 88.8, "Vol(%)": 0.08},
+                  {"bottom_10_stores": "Esmart Mobile West Mall", "TNPS": 85.9, "Vol(%)": 0.59},
+                  {"bottom_10_stores": "SH CS Tele", "TNPS": 85.7, "Vol(%)": 1.68},
+              ]
+       ];
+  table_title = [ [ "JUNE’19 STORE BY PERFORMANCE - TNPS​", "Large variation in NPS scores across the top & bottom performers​"],
+                  [ "JUNE’19 STORE BY PERFORMANCE – STAFF SATISFACTION​", "Planet Telecom 1 Woodlands and SH TM account for higher volume with high Staff Satisfaction score​"]
+                ];
+  //For slides 45,55,62,69
+  title_dist = [ "JUNE’19 OVERALL TNPS PERFORMANCE BY DISTRICT​", "JUNE’19 CABLE TV TNPS PERFORMANCE BY DISTRICT​",
+                 "JUNE’19 MOBILE TNPS PERFORMANCE BY DISTRICT​", "JUNE’19 BROADBAND TNPS PERFORMANCE BY DISTRICT​"];
+  table_45 = [ [ {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1}
+                ],
+               [  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                  {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1}
+               ],
+               [{"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1}
+               ],
+               [{"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1},
+                {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1}
+              ]
+            ];           
 }
