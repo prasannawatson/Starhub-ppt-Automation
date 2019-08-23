@@ -12,6 +12,7 @@ export class DoubleLineChartComponent implements OnInit {
   @Input() title: string[];
   @Input() data: number[];
   @Input() categories: string[];
+  @Input() table_value;
 highcharts
 chartOptions
   constructor() { }

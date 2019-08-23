@@ -1,0 +1,14 @@
+<h4> {{title}} </h4>
+
+<div class = "content">
+    <table id = "retail-table">
+        <th> District </th>
+        <th> TNPS </th>
+        <th> n </th>
+        <tr *ngFor = "let i of table">
+            <td> {{i.District}} </td>
+            <td> {{i.TNPS}} </td>
+            <td> {{i.n}} </td>
+        </tr> 
+    </table>
+</div>
