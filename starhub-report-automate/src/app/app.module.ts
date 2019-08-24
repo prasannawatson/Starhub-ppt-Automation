@@ -16,6 +16,7 @@ import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { ColumnChartComponent } from './column-chart/column-chart.component';
 import { TopBottomTableComponent } from './top-bottom-table/top-bottom-table.component';
 import { TNPSTableComponent } from './tnps-table/tnps-table.component';
+import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TNPSTableComponent } from './tnps-table/tnps-table.component';
     BarChartComponent,
     ColumnChartComponent,
     TopBottomTableComponent,
-    TNPSTableComponent
+    TNPSTableComponent,
+    BubbleChartComponent
   ],
   imports: [
     BrowserModule,
