@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+
+  .logo {
+    img {
+      width: 150px;
+      margin-right: 10px;
+    }
+  }
+
+  .webatom {
+    li {
+      list-style: none;
+      font-style: italic;
+      font-size: 12px;
+    }
+
+  }
+}

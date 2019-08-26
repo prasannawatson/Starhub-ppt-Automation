@@ -255,21 +255,39 @@ export class AppComponent {
                 {"District": "Kampong Glam, Beach Road", "TNPS": 50, "n": 1}
               ]
             ]; 
+// Executive Summary Component            
             executiveSummaryList = [
-              [
-                "Retail",
-          
-                "Hubtroopers",
-          
-          
-                "Product & Lifestyle",
-          
-                "StarHub EBG"
-              ],
-              [
-                "StarHub Online",
-                "StarHub Telesales",
-                "Consumer Contact Centre",
-              ]
-            ]          
+              ["Retail","Hubtroopers","Product & Lifestyle","StarHub EBG"],
+              ["StarHub Online","StarHub Telesales","Consumer Contact Centre"]
+            ]
+
+// headingTitle          
+            headingTitle = [
+              ["JUN’19 EXECUTIVE SUMMARY"],
+              ["AGENDA"],["junE’19 Retail TNPS – Overall & by Store Type"]
+            ]
+
+//subheadingTitle
+            subheaderingTitle = [
+              ["Overall NPS decreased by 3 points to reach 69.8 points in June’19."]
+            ]
+// footer
+          atomdata1 = [
+            ["Date Range: 1st June 2018 to 30th June 2019"],
+          ]
+          atomdata2 = [
+            ["Overall Base: 8598"],
+          ]  
+          atomdata3 = [
+            ["Date Range: 2st June 2019 to 30th June 2019"],
+          ]
+          atomdata4 = [
+            ["Date Range: 3st June 2019 to 30th June 2019"]
+          ]
+    // agenda      
+         agendavalues = [
+            "Retail", "Hubtroopers", "Product and Lifestyle",
+            "StarHub EBG", "StarHub Online", "StarHub Teesales",
+            "Consumer Contact Center"
+          ];
 }

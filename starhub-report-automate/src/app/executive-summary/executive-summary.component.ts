@@ -13,6 +13,5 @@ export class ExecutiveSummaryComponent implements OnInit {
 
   ngOnInit() {
    this.executiveSummaryList = this.executiveSummaryListData;
-console.log(this.executiveSummaryList);
 }
 }
