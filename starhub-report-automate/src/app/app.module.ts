@@ -18,6 +18,7 @@ import { TopBottomTableComponent } from './top-bottom-table/top-bottom-table.com
 import { TNPSTableComponent } from './tnps-table/tnps-table.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     TopBottomTableComponent,
     TNPSTableComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BubbleChartComponent
   ],
   imports: [
     BrowserModule,

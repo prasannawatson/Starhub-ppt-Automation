@@ -290,4 +290,24 @@ export class AppComponent {
             "StarHub EBG", "StarHub Online", "StarHub Teesales",
             "Consumer Contact Center"
           ];
+        
+    //For bubble chart(44,48,51,58,65)
+  bubble_array = [ [ { x: 10, y: -9.6, z: 21,  name: 'Broadband' },
+                     { x: 15, y: -7.3, z: 21,  name: 'Mobile' },
+                     { x: 20, y: -34.2, z: 21, name: 'Cable TV Residential' } ],
+                   [ { x: 10, y: 69.12, z: 21,  name: 'Broadband' },
+                     { x: 15, y: 67.87, z: 21,  name: 'Mobile' },
+                     { x: 20, y: 57.05, z: 21, name: 'Cable TV Residential' } ],
+                   [ { x: 10, y: 50.5, z: 21,  name: 'TV Plan Pricing' },
+                     { x: 15, y: 57.1, z: 21,  name: 'Content Variety' },
+                     { x: 20, y: 52.1, z: 21, name: 'TV Promotions' },
+                     { x: 20, y: 63, z: 21, name: 'Broadcast Quality' } ],
+                   [ { x: 10, y: 58.4, z: 21,  name: 'Mobile plan pricing' },
+                     { x: 15, y: 67.2, z: 21,  name: 'Mobile network quality and coverage​' },
+                     { x: 20, y: 68, z: 21, name: 'Value Added Services' },
+                     { x: 20, y: 70.6, z: 21, name: 'Roaming' } ],
+                   [ { x: 10, y: 64.6, z: 21,  name: 'Wifi Coverage' },
+                     { x: 15, y: 66.6, z: 21,  name: 'Router Performance' },
+                     { x: 20, y: 66.4, z: 21, name: 'Broadband Plan Pricingl' } ]
+                  ];       
 }
