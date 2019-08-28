@@ -44,7 +44,6 @@ export class TripleLineChartComponent implements OnInit {
       }
   } 
   @Input() values: string[];
-  @Input() title: string[];
   @Input() data: number[];
   @Input() categories: string[];
 highcharts
