@@ -262,15 +262,104 @@ export class AppComponent {
             ]
 
 // headingTitle          
-            headingTitle = [
-              ["JUN’19 EXECUTIVE SUMMARY"],
-              ["AGENDA"],["junE’19 Retail TNPS – Overall & by Store Type"]
-            ]
-
+headingTitle = [
+  ["JUN’19 EXECUTIVE SUMMARY"],
+  ["AGENDA"],["junE’19 Retail TNPS – Overall & by Store Type"],
+  ["JUNE’19 RETAIL TNPS BY PRODUCT & STORE TYPE​"],["JUNE’19 STARHUB SHOPS ACTIONABILITY MATRIX​"],
+  ["JUNE’19 PLATINUM SHOPS ACTIONABILITY MATRIX​"],["JUNE’19 EXCLUSIVE PARTNERS ACTIONABILITY MATRIX​"],
+  ["JUNE’19 STAFF SATISFACTION MONTHLY TRENDS​"], ["JUNE’19 RETAIL CATEGORY ACTIONABILITY MATRIX​"],
+  ["RETAIL PROMOTER ROOT CAUSE ANALYSIS​"], ["RETAIL DETRACTOR ROOT CAUSE ANALYSIS​"],
+  ["JUNE’19 STORE BY PERFORMANCE - TNPS​"], ["JUNE’19 STORE BY PERFORMANCE – STAFF SATISFACTION​"],
+  ["JUNE’19 STORE BY PERFORMANCE – STAFF SATISFACTION​"],["JUNE’19 HUBTROOPERS TNPS MONTHLY TRENDS​"],
+  ["JUNE’19 HUBTROOPERS TNPS BY COMPANY​"], ["JUNE’19 TNPS BY JOB TYPE & PRODUCT TYPE​"],
+  ["JUNE’19 COMPANY TNPS BY JOB TYPE​"], ["JUNE’19 COMPANY TNPS BY PRODUCT TYPE​"],
+  ["JUNE’19 HUBTROOPERS TECHNICIAN SAT MONTHLY TREND​"],["JUNE’19 HUBTROOPERS ACTIONABILITY MATRIX​"],
+  ["HUBTROOPERS PROMOTER ROOT CAUSE ANALYSIS​"],["HUBTROOPERS DETRACTOR ROOT CAUSE ANALYSIS​"],
+  ["JUNE’19 PLC NPS MONTHLY TRENDS​"],["JUNE’19 NPS BY PRODUCT TYPE​"],["JUNE’19 OVERALL TNPS PERFORMANCE BY DISTRICT​"],
+  ["JUNE’19 PLC OVERALL SATISFACTION MONTHLY TRENDS​"], ["JUNE’19 OVERALL SATISFACTION BY PRODUCT TYPE​"],
+  ["JUNE’19 CABLE TV NPS & OVERALL SATISFACTION​"], ["JUNE’19 INDIVIDUAL CABLE METRICS​"],
+  ["JUNE’19 CABLE TV ACTIONABILITY MATRIX​"], ["CABLE TV PROMOTER ROOT CAUSE ANALYSIS​"], ["CABLE TV DETRACTOR ROOT CAUSE ANALYSIS​"],
+  ["JUNE’19 CABLE TV TNPS PERFORMANCE BY DISTRICT​"], ["JUNE’19 MOBILE NPS & OVERALL SATISFACTION​"],
+  ["JUNE’19 INDIVIDUAL MOBILE METRICS​"],["JUNE’19 MOBILE ACTIONABILITY MATRIX​"], ["MOBILE PROMOTER ROOT CAUSE ANALYSIS​"],
+  ["MOBILE DETRACTOR ROOT CAUSE ANALYSIS​"],["JUNE’19 MOBILE TNPS PERFORMANCE BY DISTRICT​"],
+  ["JUNE’19 BROADBAND NPS & OVERALL SATISFACTION​"], ["JUNE’19 INDIVIDUAL BROADBAND METRICS​"], ["JUNE’19 BROADBAND ACTIONABILITY MATRIX​"],
+  ["BROADBAND PROMOTER ROOT CAUSE ANALYSIS​"], ["BROADBAND DETRACTOR ROOT CAUSE ANALYSIS​"], ["JUNE’19 BROADBAND TNPS PERFORMANCE BY DISTRICT​"],
+  ["JUNE’19 PLC ACTIONABILITY MATRIX​"], ["JUNE’19 EBG TNPS MONTHLY TRENDS​"], ["JUNE’19 EBG TNPS BY TRANSACTION TYPE​"],
+  ["JUNE’19 EBG SALES PERSON SATISFACTION TRENDS​"], ["JUNE’19 STARHUB EBG ACTIONABILITY MATRIX​"],
+  ["EBG PROMOTER ROOT CAUSE ANALYSIS​"], ["EBG DETRACTOR ROOT CAUSE ANALYSIS​"], ["JUNE’19 ONLINE TNPS MONTHLY TRENDS​"],
+  ["JUNE’19 TNPS BY ASSET​"], ["JUNE’19 ONLINE OVERALL SATISFACTION TRENDS​"], ["JUNE’19 OVERALL SATISFACTION BY ASSET​"],
+  ["JUNE’19 ONLINE ACTIONABILITY MATRIX​"], ["ONLINE PROMOTER ROOT CAUSE ANALYSIS​"], ["ONLINE DETRACTOR ROOT CAUSE ANALYSIS​"],
+  ["JUNE’19 TELESALES TNPS MONTHLY TRENDS​"], ["JUNE’19 TELESALES STAFF SATISFACTION TRENDS​"],
+  ["JUNE’19 TELESALES ACTIONABILITY MATRIX​"], ["TELESALES PROMOTER ROOT CAUSE ANALYSIS​"], ["TELESALES DETRACTOR ROOT CAUSE ANALYSIS​"],
+  ["JUNE’19 CONSUMER CONTACT NPS TREND​"], ["JUNE’19 CONSUMER CONTACT AGENT NPS TREND​"],
+  ["JUNE’19 CONSUMER CONTACT ACTIONABILITY MATRIX​"], ["CONTACT CENTER PROMOTER ROOT CAUSE ANALYSIS​"],
+  ["CONTACT CENTER DETRACTOR ROOT CAUSE ANALYSIS​"]
+]
 //subheadingTitle
-            subheaderingTitle = [
-              ["Overall NPS decreased by 3 points to reach 69.8 points in June’19."]
-            ]
+subheaderingTitle = [
+  ["Overall NPS decreased by 3 points to reach 69.8 points in June’19."],
+  ["Customers with a mobile connection record the highest NPS scores across store types ​"],
+  ["Staff Friendliness has the highest volume as well as NPS score making it a leading driver for promotion ​"],
+  ["Staff Friendliness has the highest volume as well as NPS score making it a leading driver for promotion ​"],
+  ["Staff Friendliness has the highest volume as well as NPS score making it a leading driver for promotion ​"],
+  ["Satisfaction scores continues the upward trend into June’19 to reach 93.6 points​"],
+  ["Staff Friendliness has the highest volume as well as NPS score making it a leading driver for promotion ​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],["Large variation in NPS scores across the top & bottom performers​"],
+  ["Planet Telecom 1 Woodlands and SH TM account for higher volume with high Staff Satisfaction score​"],
+  ["Esmart Mobile White Sands store registers the highest staff satisfaction score with higher TNPS​"],
+  ["NPS scores increased significantly to 40.6 points in June’19 from 33.9 in May 2019​"],
+  ["Increase in NPS scores in June’19 for both Earnest Corporation as well as Planet Smart Services​"],
+  ["With regards to the job type, undo installation recorded the lowest NPS in June’19​"],
+  ["By Job Type, Earnest Corporation outperforms Planet Smart Services on all job types except Delivery and marginally lower than Planet smart services in installation​"],
+  ["By product type, Earnest Corporation Pte Ltd outperforms Planet Smart Services Pte Ltd on MaxOnline and Combo​"],
+  ["The technician satisfaction scores continues to remain stable at 86.3 points​"],
+  ["25% of the promoters are happy with the installation speed and efficiency​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["The overall PLC NPS performance continues to be very low despite an increase in June’19 to reach -17.5 pts​"],
+  ["All PLC products continue to register negative NPS scores in June 2019; Focus should be on improving Cable TV scores ​"],
+  ["In June, the overall satisfaction score increased from 63.6 in May to 65.1 ​"],
+  ["Broadband segment registers highest satisfaction score, followed by Mobile and then Cable TV​"],
+  ["Overall NPS as well as overall satisfaction scores for Cable TV have decreased in June’19​"],
+  ["Broadcast Quality has highest satisfaction scores; followed by Content Variety​ "],
+  ["Cable TV segment need to focus on key areas to provide better customer experience​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["In June’19, NPS for Mobile segment increased from previous month to reach -7.3 points while a marginal rise was seen on the overall satisfaction (0.3 points)​"],
+  ["Satisfaction is the highest with regards to the Roaming followed by value added services​"],
+  ["With low NPS scores, product range and upgrades and extensions related categories fall under the ACT quadrant ​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["In June’19, both NPS and OSAT scores witnessed a rise compared to previous month​"],
+  ["Router performance registers the highest satisfaction scores closely followed by Broadband plan pricing​"],
+  ["Need to focus on key categories to create a better customer experience​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["Overall for PLC, a quick focus on Top 4 categories are crucial to improve customer experience​"],
+  ["The NPS score increased in June’19 by 0.8 pts to reach 22 pts​"],
+  ["While the NPS scores for New transactions increased marginally, decline in scores seen for Renewals​"],
+  ["The satisfaction with the sales person has increased in June’19 to reach 81.47 points​"],
+  ["Staff friendliness, attitude, knowledge and efficiency are the leading drivers of promotion​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["NPS increased in June’19 to reach 12.7 points​"],
+  ["While Consumer Online Store and My StarHub App NPS scores dropped, increase in scores seen for My Account Manager​"],
+  ["Steep increased witnessed in June 2019 to reach 73.6 points​"],
+  ["Increase in satisfaction scores witnessed for My Account Manager and Consumer Online store compared to the previous month​"],
+  ["Payment and functionality categories fall under the ACT quadrant​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["Increase in NPS scores in June’19 to reach 32.2 points​"],
+  ["Staff Satisfaction scores increased to reach 85.4 pts in June’19​"],
+  ["Staff friendliness and attitude is the leading driver of promotion​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"],
+  ["The NPS score has increased by 1.4 pts in June 2019 compared to the previous month​"],
+  ["Agent NPS has increased by 5.2 pts​"], ["Getting through is an area of improvement​"],
+  ["34.8% of the promoters are happy with the level of knowledge and attitude shown by the staffs​"],
+  ["20.8% of Detractors are not happy with the sales process​"]            
+]
 // footer
           atomdata1 = [
             ["Date Range: 1st June 2018 to 30th June 2019"],
@@ -287,7 +376,7 @@ export class AppComponent {
     // agenda      
          agendavalues = [
             "Retail", "Hubtroopers", "Product and Lifestyle",
-            "StarHub EBG", "StarHub Online", "StarHub Teesales",
+            "StarHub EBG", "StarHub Online", "StarHub Telesales",
             "Consumer Contact Center"
           ];
         

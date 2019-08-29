@@ -9,7 +9,6 @@ import * as Highcharts from 'highcharts';
 export class DoubleLineChartComponent implements OnInit {
 
   @Input() values: string[];
-  @Input() title: string[];
   @Input() data: number[];
   @Input() categories: string[];
   @Input() table_value;

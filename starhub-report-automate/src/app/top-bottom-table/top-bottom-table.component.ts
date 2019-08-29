@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TopBottomTableComponent implements OnInit {
 
-  @Input() title: string[];
   @Input() table;
   constructor() { }
 
