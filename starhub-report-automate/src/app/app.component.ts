@@ -256,7 +256,7 @@ export class AppComponent {
               ]
             ]; 
 // Executive Summary Component            
-            executiveSummaryList = [
+  executiveSummaryList = [
               ["Retail","Hubtroopers","Product & Lifestyle","StarHub EBG"],
               ["StarHub Online","StarHub Telesales","Consumer Contact Centre"]
             ]
@@ -361,18 +361,18 @@ subheaderingTitle = [
   ["20.8% of Detractors are not happy with the sales process​"]            
 ]
 // footer
-          atomdata1 = [
-            ["Date Range: 1st June 2018 to 30th June 2019"],
-          ]
-          atomdata2 = [
-            ["Overall Base: 8598"],
-          ]  
-          atomdata3 = [
-            ["Date Range: 2st June 2019 to 30th June 2019"],
-          ]
-          atomdata4 = [
-            ["Date Range: 3st June 2019 to 30th June 2019"]
-          ]
+atomdata1 = [
+      ["Date Range: 1st June 2018 to 30th June 2019"]
+  ] 
+atomdata2 = [
+  ["Overall Base: 8598"]
+]  
+atomdata3 = [
+  ["Date Range: 2st June 2019 to 30th June 2019"]
+]
+atomdata4 = [
+  ["Date Range: 3st June 2019 to 30th June 2019"]
+]
     // agenda      
          agendavalues = [
             "Retail", "Hubtroopers", "Product and Lifestyle",
@@ -399,4 +399,12 @@ subheaderingTitle = [
                      { x: 15, y: 66.6, z: 21,  name: 'Router Performance' },
                      { x: 20, y: 66.4, z: 21, name: 'Broadband Plan Pricingl' } ]
                   ];       
+//For bar chart
+data_bar = [ [ [33.3, 39.1, 32.5, 14.7, 46.8], [49.3, 39.6, 28.6, -12, 41.3] ], 
+             [ [35.7, 43.2, 34.9], [36.5, 40.1, 27.2] ]
+          ];
+categories_bar = [ [ 'Delivery', 'Installation', 'Service call', 'Undo installation', 'Upgrade'],
+                   [ 'Cable TV Residential', 'Combo', 'Max Online-Consumer']];
+values_bar = ['Earnest corporation Ltd', 'Planet smart services Ltd'];
+
 }

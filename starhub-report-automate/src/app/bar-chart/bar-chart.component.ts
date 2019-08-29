@@ -32,7 +32,8 @@ chartOptions
       enabled: true
   },
   yAxis:{
-   categories: ['Delivery', 'Installation', 'Service call', 'Undo installation', 'Upgrade'], title: {
+   categories: this.categories,
+   title: {
    text: null
    },
      xAxis : {
@@ -58,12 +59,12 @@ chartOptions
      },
      series: [
         {
-           name: 'Earnest corporation Ltd',
-           data: [33.3, 39.1, 32.5, 14.7, 46.8]
+           name: this.values[0],
+           data: this.data[0]
         }, 
         {
-           name: 'Planet smart services Ltd',
-           data: [49.3, 39.6, 28.6, -12, 41.3]
+           name: this.values[1],
+           data: this.data[1]
         }
      ]
   }
