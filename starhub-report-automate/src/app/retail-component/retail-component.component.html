@@ -1,10 +1,14 @@
 <div class="header">
-    <h2> {{headers}}  <hr> </h2>
+    <h2> {{headers}} <hr> </h2>
 </div>
 <div class = "content">
     <table id = "retail-table">
         <tr *ngFor = "let i of tables">
+<<<<<<< HEAD
             <td [ngClass]="{'active': i === active}"> <hr> {{i}} </td> 
+=======
+            <td> {{i}} </td> 
+>>>>>>> da11681a886e6f80a10e3169ac76aacc9e5f24bf
         </tr> 
     </table>
 </div>
