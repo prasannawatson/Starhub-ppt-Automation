@@ -1,5 +1,10 @@
-<div mnFullpage [mnFullpageNavigation]="false" [mnFullpageKeyboardScrolling]="true" [mnFullpageSlidesNavigation]="true"
-  [mnFullpageControlArrows]="true"  mnFullpageSlidesNavPosition="top" [mnFullpageControlArrows]="true" [mnFullpageContinuousHorizontal]="true" [mnFullpageScrollBar]="true">
+<div mnFullpage [mnFullpageNavigation]="false" 
+                [mnFullpageKeyboardScrolling]="true" 
+                [mnFullpageSlidesNavigation]="true"
+                [mnFullpageControlArrows]="true"  
+    mnFullpageSlidesNavPosition="top" [mnFullpageControlArrows]="true" 
+                                      [mnFullpageContinuousHorizontal]="true" 
+                                      [mnFullpageScrollBar]="true">
 
   <div id="section1" class="section fp-section fp-table">
     <div class="fp-tableCell">
@@ -71,7 +76,7 @@
       <div class="slide">
             <app-header [headerTitle]="headingTitle[2]" [subheaderTitle]="subheaderingTitle[0]"></app-header>
         <app-retail-tnps-overall> </app-retail-tnps-overall>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -79,14 +84,14 @@
     <div class="fp-tableCell">
       <div class="slide"> 
         <app-header [headerTitle]="headingTitle[3]" [subheaderTitle]="subheaderingTitle[1]"></app-header> 
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]" [atom3]="atomdata3[0]" [atom4]="atomdata4[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -94,14 +99,15 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide"> <app-header [headerTitle]="headingTitle[4]" [subheaderTitle]="subheaderingTitle[2]"></app-header>
-        <app-footer></app-footer>
+        <app-impact-analysis> </app-impact-analysis>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -110,14 +116,15 @@
     <div class="fp-tableCell">
       <div class="slide"> 
         <app-header [headerTitle]="headingTitle[5]" [subheaderTitle]="subheaderingTitle[3]"></app-header>
-        <app-footer></app-footer>
+        <app-impact-analysis> </app-impact-analysis>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -125,14 +132,15 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide"> <app-header [headerTitle]="headingTitle[6]" [subheaderTitle]="subheaderingTitle[4]"></app-header> 
-        <app-footer></app-footer>
+        <app-impact-analysis> </app-impact-analysis>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="Staff Satisfaction Breakdown"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -143,14 +151,14 @@
           <app-header [headerTitle]="headingTitle[7]" [subheaderTitle]="subheaderingTitle[5]"></app-header>
         <app-staff-sat-mt-tr [data]="data[0]" [categories]="categories[0]"
           [table_value]="table_value[0]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -159,7 +167,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[8]" [subheaderTitle]="subheaderingTitle[6]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -167,7 +176,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[9]" [subheaderTitle]="subheaderingTitle[7]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -175,14 +184,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[10]" [subheaderTitle]="subheaderingTitle[8]"></app-header> 
-          <app-footer></app-footer> 
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer> 
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[0]" [tables]="table[0]"> </app-retail-component>
+        <app-retail-component [headers]="header[0]" [tables]="table[0]" active="Store Performance & Rank"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -192,7 +201,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[11]" [subheaderTitle]="subheaderingTitle[9]"></app-header>
         <app-top-bottom-table [title]="title[0]" [table]="table_23"> </app-top-bottom-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -201,7 +210,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[12]" [subheaderTitle]="subheaderingTitle[10]"></app-header>
         <app-top-bottom-table [title]="title[1]" [table]="table_24"> </app-top-bottom-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -209,13 +218,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[13]" [subheaderTitle]="subheaderingTitle[11]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+        <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="Hubtroopers"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -232,7 +242,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[1]" [tables]="table[1]"> </app-retail-component>
+        <app-retail-component [headers]="header[1]" [tables]="table[1]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -243,7 +253,7 @@
           <app-header [headerTitle]="headingTitle[14]" [subheaderTitle]="subheaderingTitle[12]"></app-header>
         <app-staff-sat-mt-tr [data]="data[1]" [categories]="categories[0]"
           [table_value]="table_value[1]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -253,7 +263,7 @@
           <app-header [headerTitle]="headingTitle[15]" [subheaderTitle]="subheaderingTitle[13]"></app-header>
         <app-triple-line-chart [title]="title3[0]" [data]="data3[0]" [categories]="categories[0]" [values]="values3[0]">
         </app-triple-line-chart>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -261,7 +271,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[16]" [subheaderTitle]="subheaderingTitle[14]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]" [atom3]="atomdata3[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -270,7 +280,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[17]" [subheaderTitle]="subheaderingTitle[15]"></app-header>
           <app-bar-chart [categories]="categories_bar[0]" [data]="data_bar[0]" [values]="values_bar"> </app-bar-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]" [atom3]="atomdata3[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -279,14 +289,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[18]" [subheaderTitle]="subheaderingTitle[16]"></app-header>
           <app-bar-chart [categories]="categories_bar[1]" [data]="data_bar[1]" [values]="values_bar"> </app-bar-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]" [atom3]="atomdata3[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[1]" [tables]="table[1]"> </app-retail-component>
+        <app-retail-component [headers]="header[1]" [tables]="table[1]" active="Technician Satisfaction"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -297,14 +307,14 @@
           <app-header [headerTitle]="headingTitle[19]" [subheaderTitle]="subheaderingTitle[17]"></app-header>
         <app-staff-sat-mt-tr [data]="data[2]" [categories]="categories[0]"
           [table_value]="table_value[2]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[1]" [tables]="table[1]"> </app-retail-component>
+        <app-retail-component [headers]="header[1]" [tables]="table[1]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -313,7 +323,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[20]" [subheaderTitle]="subheaderingTitle[18]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -321,7 +332,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[21]" [subheaderTitle]="subheaderingTitle[19]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -329,13 +340,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[22]" [subheaderTitle]="subheaderingTitle[20]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+          <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="Product and Lifestyle"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -352,7 +364,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -363,7 +375,7 @@
           <app-header [headerTitle]="headingTitle[23]" [subheaderTitle]="subheaderingTitle[21]"></app-header>
         <app-staff-sat-mt-tr [data]="data[3]" [categories]="categories[0]"
           [table_value]="table_value[3]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -372,7 +384,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[24]" [subheaderTitle]="subheaderingTitle[22]"></app-header>
           <app-bubble-chart [bubble_array]="bubble_array[0]"> </app-bubble-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -381,14 +393,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[25]"></app-header>
         <app-tnps-table  [table]="table_45[0]"> </app-tnps-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="Overall Satisfaction"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -399,7 +411,7 @@
           <app-header [headerTitle]="headingTitle[26]" [subheaderTitle]="subheaderingTitle[23]"></app-header>
         <app-staff-sat-mt-tr [data]="data[4]" [categories]="categories[0]"
           [table_value]="table_value[4]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -408,14 +420,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[27]" [subheaderTitle]="subheaderingTitle[24]"></app-header>
           <app-bubble-chart [bubble_array]="bubble_array[1]"> </app-bubble-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="Cable TV Metrics"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -426,7 +438,7 @@
           <app-header [headerTitle]="headingTitle[28]" [subheaderTitle]="subheaderingTitle[25]"></app-header>
         <app-double-line-chart [data]="data2[0]" [categories]="categories[0]" [values]="values2[0]"
           [table_value]="table_value2[0]"> </app-double-line-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -435,7 +447,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[29]" [subheaderTitle]="subheaderingTitle[26]"></app-header>
           <app-bubble-chart [bubble_array]="bubble_array[2]"> </app-bubble-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -443,7 +455,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[30]" [subheaderTitle]="subheaderingTitle[27]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -451,7 +464,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[31]" [subheaderTitle]="subheaderingTitle[28]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -459,7 +472,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[32]" [subheaderTitle]="subheaderingTitle[29]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -468,14 +481,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[33]"></app-header>
         <app-tnps-table [table]="table_45[1]"> </app-tnps-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="Mobile Metrics"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -486,7 +499,7 @@
           <app-header [headerTitle]="headingTitle[34]" [subheaderTitle]="subheaderingTitle[30]"></app-header>
         <app-double-line-chart [data]="data2[1]" [categories]="categories[0]" [values]="values2[1]"
           [table_value]="table_value2[1]"> </app-double-line-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -495,7 +508,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[35]" [subheaderTitle]="subheaderingTitle[31]"></app-header>
           <app-bubble-chart [bubble_array]="bubble_array[3]"> </app-bubble-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -503,7 +516,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[36]" [subheaderTitle]="subheaderingTitle[32]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -511,7 +525,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[37]" [subheaderTitle]="subheaderingTitle[33]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -519,7 +533,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[38]" [subheaderTitle]="subheaderingTitle[34]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -528,14 +542,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[39]"></app-header>
         <app-tnps-table [title]="title_dist[2]" [table]="table_45[2]"> </app-tnps-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="Broadband Metrics"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -546,7 +560,7 @@
           <app-header [headerTitle]="headingTitle[40]" [subheaderTitle]="subheaderingTitle[35]"></app-header>
         <app-double-line-chart [title]="title2[2]" [data]="data2[2]" [categories]="categories[0]" [values]="values2[2]"
           [table_value]="table_value2[2]"> </app-double-line-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -555,7 +569,7 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[41]" [subheaderTitle]="subheaderingTitle[36]"></app-header>
           <app-bubble-chart [bubble_array]="bubble_array[4]"> </app-bubble-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -563,7 +577,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[42]" [subheaderTitle]="subheaderingTitle[37]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -571,7 +586,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[43]" [subheaderTitle]="subheaderingTitle[38]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -579,7 +594,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[44]" [subheaderTitle]="subheaderingTitle[39]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -588,14 +603,14 @@
       <div class="slide">
           <app-header [headerTitle]="headingTitle[45]"></app-header>
         <app-tnps-table [table]="table_45[3]"> </app-tnps-table>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[2]" [tables]="table[2]"> </app-retail-component>
+        <app-retail-component [headers]="header[2]" [tables]="table[2]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -604,13 +619,15 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[46]" [subheaderTitle]="subheaderingTitle[40]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+          <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="StarHub EBG"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -619,7 +636,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[3]" [tables]="table[3]"> </app-retail-component>
+        <app-retail-component [headers]="header[3]" [tables]="table[3]" > </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -627,7 +644,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[3]" [tables]="table[3]"> </app-retail-component>
+        <app-retail-component [headers]="header[3]" [tables]="table[3]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -638,7 +655,7 @@
           <app-header [headerTitle]="headingTitle[47]" [subheaderTitle]="subheaderingTitle[41]"></app-header>
         <app-staff-sat-mt-tr [data]="data[5]" [categories]="categories[0]"
           [table_value]="table_value[5]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -648,14 +665,14 @@
           <app-header [headerTitle]="headingTitle[48]" [subheaderTitle]="subheaderingTitle[42]"></app-header>
         <app-double-line-chart [data]="data2[3]" [categories]="categories[0]" [values]="values2[3]"
           [table_value]="table_value2[3]"> </app-double-line-chart>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[3]" [tables]="table[3]"> </app-retail-component>
+        <app-retail-component [headers]="header[3]" [tables]="table[3]" active="Sales Person Satisfaction"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -666,14 +683,14 @@
           <app-header [headerTitle]="headingTitle[49]" [subheaderTitle]="subheaderingTitle[43]"></app-header>
         <app-staff-sat-mt-tr [data]="data[6]" [categories]="categories[0]"
           [table_value]="table_value[6]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[3]" [tables]="table[3]"> </app-retail-component>
+        <app-retail-component [headers]="header[3]" [tables]="table[3]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -682,7 +699,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[50]" [subheaderTitle]="subheaderingTitle[44]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -690,7 +708,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[51]" [subheaderTitle]="subheaderingTitle[45]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -698,13 +716,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[52]" [subheaderTitle]="subheaderingTitle[46]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+          <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="StarHub Online"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -721,7 +740,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[4]" [tables]="table[4]"> </app-retail-component>
+        <app-retail-component [headers]="header[4]" [tables]="table[4]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -732,7 +751,7 @@
           <app-header [headerTitle]="headingTitle[53]" [subheaderTitle]="subheaderingTitle[47]"></app-header>
         <app-staff-sat-mt-tr [data]="data[7]" [categories]="categories[1]"
           [table_value]="table_value[7]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -742,14 +761,14 @@
           <app-header [headerTitle]="headingTitle[54]" [subheaderTitle]="subheaderingTitle[48]"></app-header>
         <app-triple-line-chart [data]="data3[1]" [categories]="categories[1]" [values]="values3[1]">
         </app-triple-line-chart>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[4]" [tables]="table[4]"> </app-retail-component>
+        <app-retail-component [headers]="header[4]" [tables]="table[4]" active="Overall Satisfaction"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -760,7 +779,7 @@
           <app-header [headerTitle]="headingTitle[55]" [subheaderTitle]="subheaderingTitle[49]"></app-header>
         <app-staff-sat-mt-tr [data]="data[8]" [categories]="categories[1]"
           [table_value]="table_value[8]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -770,14 +789,14 @@
           <app-header [headerTitle]="headingTitle[56]" [subheaderTitle]="subheaderingTitle[50]"></app-header>
         <app-triple-line-chart [data]="data3[2]" [categories]="categories[1]" [values]="values3[2]">
         </app-triple-line-chart>
-        <app-footer></app-footer>
+        <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[4]" [tables]="table[4]"> </app-retail-component>
+        <app-retail-component [headers]="header[4]" [tables]="table[4]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -786,7 +805,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[57]" [subheaderTitle]="subheaderingTitle[51]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -794,7 +814,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[58]" [subheaderTitle]="subheaderingTitle[52]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -802,13 +822,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[59]" [subheaderTitle]="subheaderingTitle[53]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+          <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="StarHub Telesales"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -825,7 +846,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[5]" [tables]="table[5]"> </app-retail-component>
+        <app-retail-component [headers]="header[5]" [tables]="table[5]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -836,14 +857,14 @@
           <app-header [headerTitle]="headingTitle[60]" [subheaderTitle]="subheaderingTitle[54]"></app-header>
         <app-staff-sat-mt-tr [data]="data[9]" [categories]="categories[0]"
           [table_value]="table_value[9]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[5]" [tables]="table[5]"> </app-retail-component>
+        <app-retail-component [headers]="header[5]" [tables]="table[5]" active="Staff Satisfaction"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -854,14 +875,14 @@
           <app-header [headerTitle]="headingTitle[61]" [subheaderTitle]="subheaderingTitle[55]"></app-header>
         <app-staff-sat-mt-tr [data]="data[10]" [categories]="categories[0]"
           [table_value]="table_value[10]"> </app-staff-sat-mt-tr>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[5]" [tables]="table[5]"> </app-retail-component>
+        <app-retail-component [headers]="header[5]" [tables]="table[5]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -870,7 +891,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[62]" [subheaderTitle]="subheaderingTitle[56]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -878,7 +900,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[63]" [subheaderTitle]="subheaderingTitle[57]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -886,13 +908,14 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[64]" [subheaderTitle]="subheaderingTitle[58]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
+          <app-header [headerTitle]="headingTitle[1]"> </app-header>
         <app-agenda [agendavalues]="agendavalues" active="Consumer Contact Center"> </app-agenda>
         <app-footer></app-footer>
       </div>
@@ -909,7 +932,7 @@
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[6]" [tables]="table[6]"> </app-retail-component>
+        <app-retail-component [headers]="header[6]" [tables]="table[6]" active="NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -918,14 +941,15 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[65]" [subheaderTitle]="subheaderingTitle[59]"></app-header>
-          <app-footer></app-footer>
+          <app-column-chart> </app-column-chart>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[6]" [tables]="table[6]"> </app-retail-component>
+        <app-retail-component [headers]="header[6]" [tables]="table[6]" active="Agent NPS"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -934,14 +958,15 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[66]" [subheaderTitle]="subheaderingTitle[60]"></app-header>
-          <app-footer></app-footer>
+          <app-column-chart> </app-column-chart>
+          <app-footer [atom1]="atomdata1[0]"></app-footer>
       </div>
     </div>
   </div>
   <div id="section2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       <div class="slide">
-        <app-retail-component [headers]="header[6]" [tables]="table[6]"> </app-retail-component>
+        <app-retail-component [headers]="header[6]" [tables]="table[6]" active="Qualitative Analysis"> </app-retail-component>
         <app-footer></app-footer>
       </div>
     </div>
@@ -950,7 +975,8 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[67]" [subheaderTitle]="subheaderingTitle[61]"></app-header>
-          <app-footer></app-footer>
+          <app-impact-analysis> </app-impact-analysis>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -958,7 +984,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[68]" [subheaderTitle]="subheaderingTitle[62]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>
@@ -966,7 +992,7 @@
     <div class="fp-tableCell">
       <div class="slide">
           <app-header [headerTitle]="headingTitle[69]" [subheaderTitle]="subheaderingTitle[63]"></app-header>
-          <app-footer></app-footer>
+          <app-footer [atom1]="atomdata1[0]" [atom2]="atomdata2[0]"></app-footer>
       </div>
     </div>
   </div>

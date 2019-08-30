@@ -19,6 +19,7 @@ import { TNPSTableComponent } from './tnps-table/tnps-table.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
+import { ImpactAnalysisComponent } from './impact-analysis/impact-analysis.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
     TNPSTableComponent,
     HeaderComponent,
     FooterComponent,
-    BubbleChartComponent
+    BubbleChartComponent,
+    ImpactAnalysisComponent
   ],
   imports: [
     BrowserModule,

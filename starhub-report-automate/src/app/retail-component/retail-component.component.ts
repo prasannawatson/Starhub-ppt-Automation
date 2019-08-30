@@ -8,11 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RetailComponentComponent implements OnInit {
 
   @Input() headers: string;
-  @Input() tables: string[];
-  values =  [
-    "NPS", "Staff Satisfaction Breakdown",
-    "Qualitative Analysis", "Store Performance & Rank"
-  ];
+  @Input() tables: string;
+  @Input() active: string;
+  
   constructor() { }
 
   ngOnInit() {

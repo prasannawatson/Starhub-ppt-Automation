@@ -18,7 +18,6 @@ export class BubbleChartComponent implements OnInit {
   { x: 15, y: -7.3, z: 21,  name: 'Mobile' },
   { x: 20, y: -34.2, z: 21, name: 'Cable TV Residential' }];
   ngOnInit() {
-    console.log(this.bubble_array);
     this.highcharts = Highcharts;
   this.chartOptions = {
 

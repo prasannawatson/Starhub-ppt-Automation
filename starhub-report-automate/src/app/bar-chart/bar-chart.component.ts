@@ -30,16 +30,17 @@ chartOptions
      },
      legend: {
       enabled: true
-  },
-  yAxis:{
-   categories: this.categories,
-   title: {
-   text: null
-   },
-     xAxis : {
-        min: 0, title: {
+      },
+      xAxis:{
+         categories: this.categories,
+         title: {
+            text: null
+         }
+      },
+      yAxis : {
+         title: {
            text: 'Population (millions)', align: 'high'
-        },
+         },
         labels: {
            overflow: 'justify'
         }
@@ -69,4 +70,4 @@ chartOptions
      ]
   }
   
-}}}
+}}
