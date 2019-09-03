@@ -11,6 +11,7 @@ export class TopBottomTableComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //console.log(this.table);
   }
 
 }

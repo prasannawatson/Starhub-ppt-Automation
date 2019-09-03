@@ -139,7 +139,7 @@ chartOptions: any;
           { x: 4.9, y: -25.8, z: 31, name: '4', text: 'Competition', color:"blue" },
           { x: 5.5, y: -34.3, z: 35, name: '5', text: 'Channel Experience', color:"orange" },
           { x: 10.3, y: -27.7, z: 65, name: '6', text: 'Product Quality', color:"#8EC63E" },
-          { x: 0.5, y: -100, z: 3, name: '7', text: 'Repairs and Returns', color:"#8EC63E" },
+          { x: 0.5, y: -10, z: 3, name: '7', text: 'Repairs and Returns', color:"#8EC63E" },
           { x: 4.3, y: -3.7, z: 27, name: '8', text: 'Loyalty',  color:"blue" },
           { x: 4.4, y: -32.1, z: 28, name: '9', text: 'Upgrades and Extensions',color:"orange" },
           { x: 13.6, y: 7, z: 86, name: '10', text: 'Policy',  color:"darkgreen"},
