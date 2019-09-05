@@ -404,5 +404,23 @@ data_bar = [ [ [33.3, 39.1, 32.5, 14.7, 46.8], [49.3, 39.6, 28.6, -12, 41.3] ],
 categories_bar = [ [ 'Delivery', 'Installation', 'Service call', 'Undo installation', 'Upgrade'],
                    [ 'Cable TV Residential', 'Combo', 'Max Online-Consumer']];
 values_bar = ['Earnest corporation Ltd', 'Planet smart services Ltd'];
+//Impact Analysis
+impact_analysis = [ 
+  [
+      { x: 31, y: -18.4, z: 196, name: '1', text: 'Connectivity', color:"#8EC63E" },
+      { x: 6.6, y: -26.2, z: 42, name: '2', text: 'Price and value',color:"blue" },
+      { x: 7.3, y: -10.9, z: 46, name: '3', text: 'Product Range and Availability',  color:"blue" },
+      { x: 4.9, y: -25.8, z: 31, name: '4', text: 'Competition', color:"blue" },
+      { x: 5.5, y: -34.3, z: 35, name: '5', text: 'Channel Experience', color:"orange" },
+      { x: 10.3, y: -27.7, z: 65, name: '6', text: 'Product Quality', color:"#8EC63E" },
+      { x: 0.5, y: -10, z: 3, name: '7', text: 'Repairs and Returns', color:"#8EC63E" },
+      { x: 4.3, y: -3.7, z: 27, name: '8', text: 'Loyalty',  color:"blue" },
+      { x: 4.4, y: -32.1, z: 28, name: '9', text: 'Upgrades and Extensions',color:"orange" },
+      { x: 13.6, y: 7, z: 86, name: '10', text: 'Policy',  color:"darkgreen"},
+      { x: 1.1, y: -57.1, z: 7, name: '11', text: 'Payment and Billing', color:"orange" },
+      { x: 2.5, y: -50, z: 16, name: '12', text: 'Promotions', color:"orange" },
+      { x: 7.9, y: -24, z: 50, name: '13', text: 'Professionalism and staff', color:"#8EC63E" }
+  ]
+];
 
 }

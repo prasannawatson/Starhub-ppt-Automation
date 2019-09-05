@@ -19,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 import { ImpactAnalysisComponent } from './impact-analysis/impact-analysis.component';
+import { RootCauseAnalysisComponent } from './root-cause-analysis/root-cause-analysis.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ImpactAnalysisComponent } from './impact-analysis/impact-analysis.compo
     HeaderComponent,
     FooterComponent,
     BubbleChartComponent,
-    ImpactAnalysisComponent
+    ImpactAnalysisComponent,
+    RootCauseAnalysisComponent
   ],
   imports: [
     BrowserModule
