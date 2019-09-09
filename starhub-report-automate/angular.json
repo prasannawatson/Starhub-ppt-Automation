@@ -28,13 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/fullpage.js/dist/fullpage.min.css"
+              "src/styles.scss"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/fullpage.js/dist/fullpage.js",
-              "node_modules/fullpage.js/dist/fullpage.extensions.min.js"
             ]
           },
           "configurations": {

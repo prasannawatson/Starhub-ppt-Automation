@@ -22,11 +22,18 @@ export class TripleLineChartComponent implements OnInit {
                 text:"Months"
              } 
          },
-         yAxis: {          
+         yAxis: [{          
             title:{
                text:"Staff Satisfaction"
-            } 
+            },
+            opposite: true
          },
+         {          
+          title:{
+             text:"Staff Satisfaction 1"
+          } 
+       }
+        ],
          series: [
           {
             name: this.values[0],

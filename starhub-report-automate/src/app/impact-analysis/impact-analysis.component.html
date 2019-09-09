@@ -1,0 +1,20 @@
+<div class="flex-container">
+    <div class="left">
+      <div class="top"> <p> Leverge </p> </div>
+      <div class="bottom"> <p> Monitor </p> </div>
+    </div>
+    <div class="boxChart__container">
+      <highcharts-chart
+        [Highcharts]="Highcharts"
+        [options] = "chartOptions" 
+        style="height: 450px; width: 700px; margin: 0 auto; display: block;">
+      </highcharts-chart>
+    </div>
+    <div class="right">
+      <div class="top-right"> <p> Maintain </p> </div>
+      <div class="bottom-right"> <p> Act </p> </div>
+    </div>
+    <table id = "retail-table">
+      <tr *ngFor = "let item of impact_analysis"> <td [ngClass]="{'active': item === active}"> {{item.name}}.{{item.text}} </td> </tr> 
+    </table>
+</div>

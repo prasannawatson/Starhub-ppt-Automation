@@ -1,6 +1,4 @@
-import {
-  Component
-} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -181,27 +179,27 @@ export class AppComponent {
                  {"bottom_10_stores": "SH CS Tele", "TNPS": 37.4, "Vol": 1.71},
               ]
             ];
-  table_24 = [ [  {"top_10_stores": "Esmart Tampines One", "TNPS": 97.2, "Vol(%)": 0.74},
-                  {"top_10_stores": "HOUGANG MALL", "TNPS": 96.7, "Vol(%)": 0.7},
-                  {"top_10_stores": "Changi T3 outlet", "TNPS": 95.9, "Vol(%)": 1.01},
-                  {"top_10_stores": "Planet Telecoms 1 Woodlands Square,Causeway Point,#03-(07to09),S(738099)", "TNPS": 95.3, "Vol(%)": 9.13},
-                  {"top_10_stores": "Esmart Mobile Toa Payoh HDB Hub", "TNPS": 95, "Vol(%)": 0.72},
-                  {"top_10_stores": "SH TM", "TNPS": 94.8, "Vol(%)": 16.23},
-                  {"top_10_stores": "CIPT SUN PLAZA", "TNPS": 94.6, "Vol(%)": 0.56},
-                  {"top_10_stores": "BEDOK MALL", "TNPS": 94.6, "Vol(%)": 1.97},
-                  {"top_10_stores": "CIPTLOT1", "TNPS": 94.4, "Vol(%)": 1.23},
-                  {"top_10_stores": "SH Waterway Point", "TNPS": 94.2, "Vol(%)": 3.33},
+  table_24 = [ [  {"top_10_stores": "Esmart Tampines One", "TNPS": 97.2, "Vol": 0.74},
+                  {"top_10_stores": "HOUGANG MALL", "TNPS": 96.7, "Vol": 0.7},
+                  {"top_10_stores": "Changi T3 outlet", "TNPS": 95.9, "Vol": 1.01},
+                  {"top_10_stores": "Planet Telecoms 1 Woodlands Square,Causeway Point,#03-(07to09),S(738099)", "TNPS": 95.3, "Vol": 9.13},
+                  {"top_10_stores": "Esmart Mobile Toa Payoh HDB Hub", "TNPS": 95, "Vol": 0.72},
+                  {"top_10_stores": "SH TM", "TNPS": 94.8, "Vol": 16.23},
+                  {"top_10_stores": "CIPT SUN PLAZA", "TNPS": 94.6, "Vol": 0.56},
+                  {"top_10_stores": "BEDOK MALL", "TNPS": 94.6, "Vol": 1.97},
+                  {"top_10_stores": "CIPTLOT1", "TNPS": 94.4, "Vol": 1.23},
+                  {"top_10_stores": "SH Waterway Point", "TNPS": 94.2, "Vol": 3.33},
               ],
-              [   {"bottom_10_stores": "CITICLEMENTI", "TNPS": 90.7, "Vol(%)": 1.05},
-                  {"bottom_10_stores": "Esmart Roadshow", "TNPS": 90.4, "Vol(%)": 0.5},
-                  {"bottom_10_stores": "TeleInfo AMK Hub, 53, Ang Mo Kio Ave 3, AMK Hub,  #02-57, S(569933)", "TNPS": 90.2, "Vol(%)": 1.33},
-                  {"bottom_10_stores": "Esmart Mobile Compass one", "TNPS": 90.1, "Vol(%)": 1.11},
-                  {"bottom_10_stores": "Esmart Mobile Hillion", "TNPS": 89.5, "Vol(%)": 1.13},
-                  {"bottom_10_stores": "Esmart Mobile Junction8", "TNPS": 89.1, "Vol(%)": 1.11},
-                  {"bottom_10_stores": "CITIROADSHOW", "TNPS": 89, "Vol(%)": 0.29},
-                  {"bottom_10_stores": "SH CIS RS Team 1", "TNPS": 88.8, "Vol(%)": 0.08},
-                  {"bottom_10_stores": "Esmart Mobile West Mall", "TNPS": 85.9, "Vol(%)": 0.59},
-                  {"bottom_10_stores": "SH CS Tele", "TNPS": 85.7, "Vol(%)": 1.68},
+              [   {"bottom_10_stores": "CITICLEMENTI", "TNPS": 90.7, "Vol": 1.05},
+                  {"bottom_10_stores": "Esmart Roadshow", "TNPS": 90.4, "Vol": 0.5},
+                  {"bottom_10_stores": "TeleInfo AMK Hub, 53, Ang Mo Kio Ave 3, AMK Hub,  #02-57, S(569933)", "TNPS": 90.2, "Vol": 1.33},
+                  {"bottom_10_stores": "Esmart Mobile Compass one", "TNPS": 90.1, "Vol": 1.11},
+                  {"bottom_10_stores": "Esmart Mobile Hillion", "TNPS": 89.5, "Vol": 1.13},
+                  {"bottom_10_stores": "Esmart Mobile Junction8", "TNPS": 89.1, "Vol": 1.11},
+                  {"bottom_10_stores": "CITIROADSHOW", "TNPS": 89, "Vol": 0.29},
+                  {"bottom_10_stores": "SH CIS RS Team 1", "TNPS": 88.8, "Vol": 0.08},
+                  {"bottom_10_stores": "Esmart Mobile West Mall", "TNPS": 85.9, "Vol": 0.59},
+                  {"bottom_10_stores": "SH CS Tele", "TNPS": 85.7, "Vol": 1.68},
               ]
        ];
   table_title = [ [ "JUNE’19 STORE BY PERFORMANCE - TNPS​", "Large variation in NPS scores across the top & bottom performers​"],
@@ -373,15 +371,15 @@ atomdata3 = [
 atomdata4 = [
   ["Date Range: 3st June 2019 to 30th June 2019"]
 ]
-    // agenda      
-         agendavalues = [
+// agenda      
+agendavalues = [
             "Retail", "Hubtroopers", "Product and Lifestyle",
             "StarHub EBG", "StarHub Online", "StarHub Telesales",
             "Consumer Contact Center"
           ];
         
-    //For bubble chart(44,48,51,58,65)
-  bubble_array = [ [ { x: 10, y: -9.6, z: 21,  name: 'Broadband' },
+//For bubble chart(44,48,51,58,65)
+bubble_array = [ [ { x: 10, y: -9.6, z: 21,  name: 'Broadband' },
                      { x: 15, y: -7.3, z: 21,  name: 'Mobile' },
                      { x: 20, y: -34.2, z: 21, name: 'Cable TV Residential' } ],
                    [ { x: 10, y: 69.12, z: 21,  name: 'Broadband' },
@@ -406,5 +404,23 @@ data_bar = [ [ [33.3, 39.1, 32.5, 14.7, 46.8], [49.3, 39.6, 28.6, -12, 41.3] ],
 categories_bar = [ [ 'Delivery', 'Installation', 'Service call', 'Undo installation', 'Upgrade'],
                    [ 'Cable TV Residential', 'Combo', 'Max Online-Consumer']];
 values_bar = ['Earnest corporation Ltd', 'Planet smart services Ltd'];
+//Impact Analysis
+impact_analysis = [ 
+  [
+      { x: 31, y: -18.4, z: 196, name: '1', text: 'Connectivity', color:"#8EC63E" },
+      { x: 6.6, y: -26.2, z: 42, name: '2', text: 'Price and value',color:"blue" },
+      { x: 7.3, y: -10.9, z: 46, name: '3', text: 'Product Range and Availability',  color:"blue" },
+      { x: 4.9, y: -25.8, z: 31, name: '4', text: 'Competition', color:"blue" },
+      { x: 5.5, y: -34.3, z: 35, name: '5', text: 'Channel Experience', color:"orange" },
+      { x: 10.3, y: -27.7, z: 65, name: '6', text: 'Product Quality', color:"#8EC63E" },
+      { x: 0.5, y: -10, z: 3, name: '7', text: 'Repairs and Returns', color:"#8EC63E" },
+      { x: 4.3, y: -3.7, z: 27, name: '8', text: 'Loyalty',  color:"blue" },
+      { x: 4.4, y: -32.1, z: 28, name: '9', text: 'Upgrades and Extensions',color:"orange" },
+      { x: 13.6, y: 7, z: 86, name: '10', text: 'Policy',  color:"darkgreen"},
+      { x: 1.1, y: -57.1, z: 7, name: '11', text: 'Payment and Billing', color:"orange" },
+      { x: 2.5, y: -50, z: 16, name: '12', text: 'Promotions', color:"orange" },
+      { x: 7.9, y: -24, z: 50, name: '13', text: 'Professionalism and staff', color:"#8EC63E" }
+  ]
+];
 
 }

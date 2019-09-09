@@ -23,7 +23,7 @@ chartOptions
         type: 'column'
      },
      title: {
-        text: 'Historic World Population by Region'
+        text: 'Historic World Population by Region' //title
      },
      subtitle : {
         text: 'Source: Wikipedia.org'  
@@ -32,7 +32,8 @@ chartOptions
       enabled: true
      },
      xAxis:{
-      categories: ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19'], title: {
+      categories: ['Jan-19', 'Feb-19', 'Mar-19', 'Apr-19', 'May-19', 'Jun-19'], //categories
+      title: {
       text: null
       }
     },
@@ -57,7 +58,7 @@ chartOptions
      series: [
         //For slide 110
          {
-           data: [23.8, 24.3, 25.6, 21.5, 25.6, 30.8]
+           data: [23.8, 24.3, 25.6, 21.5, 25.6, 30.8]//data
         },
         //For slide 108
         {

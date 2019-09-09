@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MnFullpageModule } from "ngx-fullpage";
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { ExecutiveSummaryComponent } from './executive-summary/executive-summary.component';
@@ -19,6 +18,8 @@ import { TNPSTableComponent } from './tnps-table/tnps-table.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
+import { ImpactAnalysisComponent } from './impact-analysis/impact-analysis.component';
+import { RootCauseAnalysisComponent } from './root-cause-analysis/root-cause-analysis.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +39,12 @@ import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
     TNPSTableComponent,
     HeaderComponent,
     FooterComponent,
-    BubbleChartComponent
+    BubbleChartComponent,
+    ImpactAnalysisComponent,
+    RootCauseAnalysisComponent
   ],
   imports: [
-    BrowserModule,
-    MnFullpageModule.forRoot()
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
