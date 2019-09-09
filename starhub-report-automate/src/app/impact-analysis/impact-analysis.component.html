@@ -15,6 +15,6 @@
       <div class="bottom-right"> <p> Act </p> </div>
     </div>
     <table id = "retail-table">
-      <tr *ngFor = "let item of tables"> <td [ngClass]="{'active': item === active}"> {{item.n}}.{{item.name}} </td> </tr> 
+      <tr *ngFor = "let item of impact_analysis"> <td [ngClass]="{'active': item === active}"> {{item.name}}.{{item.text}} </td> </tr> 
     </table>
 </div>

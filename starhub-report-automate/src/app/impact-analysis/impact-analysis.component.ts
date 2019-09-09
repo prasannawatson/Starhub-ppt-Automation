@@ -14,7 +14,6 @@ export class ImpactAnalysisComponent implements OnInit {
     constructor() { }
     chartOptions: any;
     Highcharts;
-    tables = [{name:"A",n:1},{name:"B",n:2}];
 
     ngOnInit() {
         this.Highcharts = Highcharts;
