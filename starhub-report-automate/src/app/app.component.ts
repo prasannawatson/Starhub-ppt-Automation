@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   title1 = 'starhub-report-automate';
   //For retail,hubtroopers and so on
   header = ["Retail", "Hubtroopers", "Product & Lifecycle", "StarHub EBG",
