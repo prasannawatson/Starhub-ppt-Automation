@@ -26,6 +26,8 @@
 }
 
 .top {
+  top: -15px;
+  position: relative;
   p{
     vertical-align:center;
     line-height:50%;
@@ -72,18 +74,24 @@
 .bottom{
   align-self: flex-end;
   background-color: orange;
-  height:50%
+  height:50%;
+  top: -31px;
+    position: relative;
 }
 
 .top-right{
   background-color: green;
   align-self: flex-start;
-  height:50%
+  height:50%;
+  top: -15px;
+  position: relative;
 }
 
 .bottom-right{
   align-self: flex-end;
   background-color: red;
-  height:50%
+  height:50%;
+  top: -31px;
+    position: relative;
 }
   

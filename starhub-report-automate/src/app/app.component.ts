@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title1 = 'starhub-report-automate';
+  public innerWidth: any;
+  ngOnInit() {
+    this.innerWidth = window.innerWidth;
+}
+height = window.innerHeight;
   //For retail,hubtroopers and so on
   header = ["Retail", "Hubtroopers", "Product & Lifecycle", "StarHub EBG",
     "StarHub Online", "StarHub TeleSales", "Consumer Contact Center"
