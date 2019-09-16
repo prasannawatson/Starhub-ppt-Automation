@@ -7,13 +7,13 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class RetailComponentComponent implements OnInit {
 
-  @Input() headers: string;
+  @Input() headers: string[];
   @Input() tables: string;
   @Input() active: string;
-  
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

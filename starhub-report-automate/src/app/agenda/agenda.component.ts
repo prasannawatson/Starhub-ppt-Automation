@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./agenda.component.scss']
 })
 export class AgendaComponent implements OnInit {
-  @Input() agendavalues: string[] 
+  @Input() agendavalues: string[];
   @Input() active: string;
   constructor() {   }
 
