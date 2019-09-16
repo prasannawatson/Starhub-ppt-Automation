@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   title1 = 'starhub-report-automate';
   public innerWidth: any;
   ngOnInit() {
